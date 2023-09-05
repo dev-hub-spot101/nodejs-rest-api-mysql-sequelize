@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "d709cbc7-534e-4953-87c4-a144e51ce89a",
+		"name": "rest-api-nodejs-mysql-sequelize",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "253739"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9854/api/users/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"youtuber\",\n    \"email\":\"youtuber@gmail.com\",\n    \"password\":\"123456\",\n    \"mobile\":\"12121212121\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9854/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9854",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9854/api/users/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9854/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9854",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9854/api/users/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9854/api/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9854",
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9854/api/users/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9854/api/users/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9854",
+					"path": [
+						"api",
+						"users",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9854/api/users/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"youtuber\",\n    \"email\":\"youtuber@gmail.com\",\n    \"password\":\"123456\",\n    \"mobile\":\"12121212121\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9854/api/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9854",
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
